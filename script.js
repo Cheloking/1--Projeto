@@ -8,14 +8,14 @@ function toggleMode() {
 
   //substituir a imagem
   if (html.classList.contains("light")){
-    img.setAttribute('src', './assets/claro.png') 
-    img.setAttribute("alt", "Vitor no claro")
+    img.setAttribute('src', './assets/sol.jpeg') 
+    img.setAttribute("alt", "sol")
     //setAttribute -> adicionar, ajutar e modificar um atributo
     //se tiver light mode, adicionar a imagem light
 }
 else{
     //se tiver sem light mode, manter a imagem normal
-    img.setAttribute('src', "./assets/Texto do seu parágrafo.png")
+    img.setAttribute('src', "./assets/lua.jpeg")
     img.setAttribute('alt', 'Vitor no escuro')
 }
 
