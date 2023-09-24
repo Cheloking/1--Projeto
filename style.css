@@ -34,6 +34,7 @@ body {
   */
   /* Background: color image repeat/side*/
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -175,4 +176,15 @@ footer {
   text-align: center;
   font-size: 14px;
   gap: 6px;
+}
+
+/* media queries */
+@media (min-width: 700px) /*Ele define as regras*/ {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assents/bg-desktop-light.jpg );
+  }
 }
