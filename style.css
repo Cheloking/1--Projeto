@@ -91,7 +91,7 @@ body * {
   transform: translateY(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
@@ -129,7 +129,9 @@ ul li a {
   border-radius: 8px;
 
   backdrop-filter: blur(4px); /*Coloca um embaçado no elemento*/
-  -webkit-backdrop-filter: blur( 4px); /*webkit é uum prefixo que alguns navegadores usam para liberar o estilo*/
+  -webkit-backdrop-filter: blur(
+    4px
+  ); /*webkit é uum prefixo que alguns navegadores usam para liberar o estilo*/
 
   text-decoration: none; /*Tira a linha de baixo do link*/
   font-weight: 500;
